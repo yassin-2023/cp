@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+.a {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/image/back.jpg);
+    background-attachment: fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aitms {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.content {
+    width: 38%;
+}
+
+.content h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.5rem;
+    color: #EEEEEE;
+}
+
+.content p {
+font-family: 'Merriweather Sans', sans-serif;
+color: #001C30;
+}
+span {
+    color: rgb(30, 30, 186);
+}
+
+.main {
+    width: 100%;
+    background-color: #1D5D9B; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main h1 {
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+}
+
+.main h3 {
+        font-family: 'Fjalla One', sans-serif;
+}
+
+.item-left {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.content-right {
+    width: 50%;
+}
+
+.item-right {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.content-left {
+    width: 50%;
+}
+
+.hobby-section {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.hobby-section h1 {
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+}
+
+.hobbys {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hobby {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobby img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.hobby h3 {
+        font-family: 'Fjalla One', sans-serif;
+}
+
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(21, 26, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -7px;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+footer p {
+    text-align: center;
+}
+
+@media (max-width:650px) {
+    .aitms {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact {
+        width: 50%;
+    }
+    .content h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .content p {
+        display: none;
+    }
+    .image {
+        margin-top: 80px;
+        width: 80%;
+    }
+    .item-left, .item-right {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hobbys {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .hobby {
+        width: 70%;
+    }
+    .contact {
+        width: 100%;
+    }
+    .contact h2 {
+        font-size: 1.3rem;
+    }
+    .contact p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+}
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(159, 255, 255);
+    color: blue;
+    cursor: pointer;
+    
+}
+button:hover {
+    opacity: 0.5;
+}
+
+h3 {
+    color: white;
+}
+
+.main p {
+    color: rgb(36, 36, 34);
+}
